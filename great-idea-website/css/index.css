@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+	padding-bottom: 70px;
+}
+
+header .logo {
+	margin-top: 35px;
+	margin-left: 130px;
+}
+
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+
+/* banner section */
+
+.banner {
+	display: inline-block;
+	padding: 70px 20px;
+	vertical-align: top;
+	margin-left: 140px;
+	margin-bottom: 40px;
+}
+
+.banner h2 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.banner p {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px 20px;
+	margin-left: 70px
+}
+
+
+
+/* paragraphs section ----------------------------------------- */
+
+.row-1 {
+	display: inline-block;
+	border-top: 1px solid black;
+}
+
+.features {
+	display: inherit;
+	width: 40%;
+	margin: 40px 25px;
+}
+
+.about {
+	display: inherit;
+	width: 40%;
+	margin: 40px 25px;
+}
+
+
+.row-2 {
+	display: inline-block;
+}
+
+
+.services {
+	display: inherit;
+	width: 30%;
+	margin: 10px;
+	padding: 10px
+}
+.product {
+	display: inherit;
+	width: 30%;
+	margin: 10px;
+	padding: 10px
+}
+.vision {
+	display: inherit;
+	width: 30%;
+	margin: 10px;
+	padding: 10px
+}
+
+.middle-img {
+	margin-bottom: 40px;
+	padding: 0 10px;
+}
+
+address {
+	margin: 20px 10px;
+	padding: 20px;
+}
+
+.phone-num {
+	margin: 10px 0;
+}
+
+footer {
+	margin: 20px auto;
+	text-align: center;
+}

@@ -63,4 +63,153 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.nav-section {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-section a {
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: gray;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	font-size: 60px;
+	margin-right: 40px;
+	text-align: center;
+}
+.text p {
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+
+
+.row-1 {
+	margin: 20px 30px;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.middle-img {
+	width: 90%;
+	margin-left: 40px;
+}
+
+.row-2 {
+	margin: 15px;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.services-nav {
+	margin-bottom: 20px;
+
+}
+
+
+.services-header {
+	margin: 5px 15px 20px 5px;
+	padding: 50px;
+	border-bottom: 1px solid black;
+}
+
+.services-header h2 {
+	font-size: 25px;
+}
+
+
+/* Just plain old fashioned centering, don't know if we should use flexbox here to center
+   this image?    */
+
+.services-header-img {
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* TODO -- don't think this is the right way to do those service boxes and feels kinda hacky */
+/*         basically just using this as a learning experiment    */
+
+.service-boxes {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 40px;
+	
+}
+
+.service {
+	width: 400px;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #f2f2f2;
+	margin: 20px;
+}
+
+.service-facts h3 {
+	margin-left: 20px;
+}
+
+.service-facts p {
+	margin-bottom: 20px;
+	
+}
+
+.service-facts ul {
+	list-style-type: disc;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+ul li {
+	padding: 3px;
+}
+
+.services-info-img {
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+}
+
+.service-facts-container {
+	display: flex;
+	margin: 10px 20px 30px 20px;
+}
+
+.column {
+	justify-content: space-around;
+}
+
+.services-footer {
+	margin: 50px 0 20px 0;
+	text-align: center;
+}

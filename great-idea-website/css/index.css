@@ -105,6 +105,10 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 }
 
+.home-boxes {
+	padding: 20px;
+}
+
 
 
 .row-1 {
@@ -127,6 +131,15 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	justify-content: space-between;
 }
+
+.address-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 20px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}	
 
 
 .services-nav {

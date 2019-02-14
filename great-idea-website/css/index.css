@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 .nav-section {
@@ -137,9 +136,20 @@ h1, h2, h3, h4, h5 {
 
 
 .services-header {
-	margin: 5px 15px 20px 5px;
-	padding: 50px;
+	margin:  5px;
+	padding: 30px;
+	line-height: 1.5;
+}
+
+.services-header:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 50px;
 	border-bottom: 1px solid black;
+
+
 }
 
 .services-header h2 {
@@ -156,15 +166,26 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+
+
 /* TODO -- don't think this is the right way to do those service boxes and feels kinda hacky */
 /*         basically just using this as a learning experiment    */
 
 .service-boxes {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	margin-bottom: 40px;
-	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 30px 5px 80px 5px;
+}
+
+.service-boxes:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+	padding-top: 50px;
+	border-bottom: 1px solid black;
 }
 
 .service {
@@ -173,6 +194,18 @@ h1, h2, h3, h4, h5 {
 	padding: 20px;
 	background-color: #f2f2f2;
 	margin: 20px;
+	line-height: 1.3;
+}
+
+.service .learn-more {
+	border: 1px solid black;
+	font-size: small;
+	border-radius: 4px;
+	margin-top: 15px;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	padding: 8px 10px;
 }
 
 .service-facts h3 {
@@ -181,6 +214,7 @@ h1, h2, h3, h4, h5 {
 
 .service-facts p {
 	margin-bottom: 20px;
+	line-height: 1.4;
 	
 }
 
@@ -191,7 +225,7 @@ h1, h2, h3, h4, h5 {
 }
 
 ul li {
-	padding: 3px;
+	line-height: 1.4;
 }
 
 .services-info-img {
